@@ -15,7 +15,10 @@
 				"E:/yumi/UnrealPractice/Unreal_Practice/MyProject/Content/BluePrint/BB_NPC.uasset",
 				"E:/yumi/UnrealPractice/Unreal_Practice/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/QD/QMD87YM4CFRYNBYQCIJCHN.uasset",
 				"E:/yumi/UnrealPractice/Unreal_Practice/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/U1/HDN2E1HVBHNUQ9RZPRG43H.uasset",
-				"E:/yumi/UnrealPractice/Unreal_Practice/MyProject/Content/AssetsvilleTown/Maps/Demonstration.umap"
+				"E:/yumi/UnrealPractice/Unreal_Practice/MyProject/Content/AssetsvilleTown/Maps/Demonstration.umap",
+				"E:/yumi/UnrealPractice/Unreal_Practice/MyProject/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"E:/yumi/UnrealPractice/Unreal_Practice/MyProject/Content/Input/IA_Find.uasset",
+				"E:/yumi/UnrealPractice/Unreal_Practice/MyProject/Content/Input/Keyboard.uasset"
 			]
 		}
 	]
