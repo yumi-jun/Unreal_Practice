@@ -19,6 +19,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define FID_yumi_UnrealPractice_Unreal_Practice_MyProject_Source_MyProject_Finder_h_13_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
 #define FID_yumi_UnrealPractice_Unreal_Practice_MyProject_Source_MyProject_Finder_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execFind_Coffee); \
+	DECLARE_FUNCTION(execFind_Car); \
+	DECLARE_FUNCTION(execFind_People); \
 	DECLARE_FUNCTION(execFind);
 
 

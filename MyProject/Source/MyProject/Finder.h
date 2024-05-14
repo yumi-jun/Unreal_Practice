@@ -26,5 +26,23 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void Find();
 	
+	UFUNCTION(BlueprintCallable,Category=LevelBluePrint)
+	bool Find_People();
+
+	UFUNCTION(BlueprintCallable,Category=LevelBluePrint)
+	bool Find_Car();
+
+	UFUNCTION(BlueprintCallable,Category=LevelBluePrint)
+	bool Find_Coffee();
+	
+	bool t1;
+	bool t2;
+	bool t3;
+	
 	FString FindSomeOne;
+
+
+	FString FindCar;
+	
+	FString FindCoffee;
 };

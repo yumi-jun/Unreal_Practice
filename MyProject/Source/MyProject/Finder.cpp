@@ -3,6 +3,7 @@
 
 #include "Finder.h"
 
+
 // Sets default values for this component's properties
 UFinder::UFinder()
 {
@@ -10,7 +11,11 @@ UFinder::UFinder()
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
 
-	// ...
+	FindSomeOne = "FindWhat";
+	FindCar = "FindCar";
+	FindCoffee = "DrinkCoffee";
+
+		// ...
 }
 
 
@@ -18,10 +23,8 @@ UFinder::UFinder()
 void UFinder::BeginPlay()
 {
 	Super::BeginPlay();
-
-	FindSomeOne="FindWhat";
-	// ...
 	
+	// ...
 }
 
 
@@ -39,10 +42,12 @@ void UFinder::Find()
 {
 	UWorld *World = GetWorld(); 
 	FVector Start = GetComponentLocation();
-	FVector End = Start + GetForwardVector() * 200;
+	FVector End = Start + GetForwardVector() * 400;
 	DrawDebugLine(World, Start, End, FColor::Red);
 
-	
+	t1=false;
+	t2=false;
+	t3=false;
 
 	
 	// Definition of a collision sphere with radius 100
@@ -68,11 +73,24 @@ void UFinder::Find()
 		AActor* HitActor = HitResult.GetActor();
 
 		// Print the actor's name
-		UE_LOG(LogTemp, Display, TEXT("Hit an actor: %s"), *HitActor->GetActorNameOrLabel());
 
 		if(*HitActor->GetActorNameOrLabel()==FindSomeOne)
 		{
 			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Find Correct!"));
+			t1=true;
+			
+		}
+		else if(*HitActor->GetActorNameOrLabel()==FindCar)
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Find Car!"));
+			t2=true;
+			
+		}
+		else if(*HitActor->GetActorNameOrLabel()==FindCoffee)
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Find Coffee!"));
+			t3=true;
+			
 		}
 	} 
 	else 
@@ -81,5 +99,22 @@ void UFinder::Find()
 	}
 
 }
+
+bool UFinder::Find_Car()
+{
+	return t2;
+}
+
+bool UFinder::Find_Coffee()
+{
+	return t3;
+}
+bool UFinder::Find_People()
+{
+	return t1;
+}
+
+
+
 
 
