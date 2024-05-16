@@ -26,7 +26,11 @@
 				"E:/yumi/UnrealPractice/Unreal_Practice/MyProject/Content/AssetsvilleTown/Maps/Level3_BuiltData.uasset",
 				"E:/yumi/UnrealPractice/Unreal_Practice/MyProject/Content/AssetsvilleTown/Maps/BP_Coffee.uasset",
 				"E:/yumi/UnrealPractice/Unreal_Practice/MyProject/Content/AssetsvilleTown/Maps/BP_CAR.uasset",
-				"E:/yumi/UnrealPractice/Unreal_Practice/MyProject/Content/Widget/FindPeople.uasset"
+				"E:/yumi/UnrealPractice/Unreal_Practice/MyProject/Content/Widget/FindPeople.uasset",
+				"E:/yumi/UnrealPractice/Unreal_Practice/MyProject/Content/BluePrint/BP_Npc_Car.uasset",
+				"E:/yumi/UnrealPractice/Unreal_Practice/MyProject/Content/BluePrint/AL_CAR.uasset",
+				"E:/yumi/UnrealPractice/Unreal_Practice/MyProject/Content/Input/IA_Grab.uasset",
+				"E:/yumi/UnrealPractice/Unreal_Practice/MyProject/Content/Widget/kitchenCabinet_21_Blueprint.uasset"
 			]
 		}
 	]
