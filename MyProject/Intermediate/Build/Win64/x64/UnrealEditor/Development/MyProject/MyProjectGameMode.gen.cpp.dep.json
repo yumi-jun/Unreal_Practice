@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\yumi\\unrealpractice\\unreal_practice\\myproject\\intermediate\\build\\win64\\unrealeditor\\inc\\myproject\\uht\\myprojectgamemode.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\yumi\\unrealpractice\\unreal_practice\\myproject\\intermediate\\build\\win64\\x64\\myprojecteditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "e:\\yumi\\unrealpractice\\unreal_practice\\myproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\myproject\\definitions.myproject.h",
+            "e:\\yumi\\unrealpractice\\unreal_practice\\myproject\\source\\myproject\\myprojectgamemode.h",
+            "e:\\programfiles\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "e:\\programfiles\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "e:\\programfiles\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "e:\\programfiles\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "e:\\yumi\\unrealpractice\\unreal_practice\\myproject\\intermediate\\build\\win64\\unrealeditor\\inc\\myproject\\uht\\myprojectgamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -30,7 +30,16 @@
 				"E:/yumi/UnrealPractice/Unreal_Practice/MyProject/Content/BluePrint/BP_Npc_Car.uasset",
 				"E:/yumi/UnrealPractice/Unreal_Practice/MyProject/Content/BluePrint/AL_CAR.uasset",
 				"E:/yumi/UnrealPractice/Unreal_Practice/MyProject/Content/Input/IA_Grab.uasset",
-				"E:/yumi/UnrealPractice/Unreal_Practice/MyProject/Content/Widget/kitchenCabinet_21_Blueprint.uasset"
+				"E:/yumi/UnrealPractice/Unreal_Practice/MyProject/Content/Widget/kitchenCabinet_21_Blueprint.uasset",
+				"E:/yumi/UnrealPractice/Unreal_Practice/MyProject/Content/BluePrint/MyAIController.uasset",
+				"E:/yumi/UnrealPractice/Unreal_Practice/MyProject/Content/BluePrint/MyBehaviorTree.uasset",
+				"E:/yumi/UnrealPractice/Unreal_Practice/MyProject/Content/AssetsvilleTown/Maps/Mainmenu.umap",
+				"E:/yumi/UnrealPractice/Unreal_Practice/MyProject/Content/AI_Car_Blueprint.uasset",
+				"E:/yumi/UnrealPractice/Unreal_Practice/MyProject/Content/Widget/Main_menu.uasset",
+				"E:/yumi/UnrealPractice/Unreal_Practice/MyProject/Content/Widget/FindCar.uasset",
+				"E:/yumi/UnrealPractice/Unreal_Practice/MyProject/Content/Widget/FindCoffee.uasset",
+				"E:/yumi/UnrealPractice/Unreal_Practice/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/VE/AYEL8LQ0ROTQBEZ1NSUUAP.uasset",
+				"E:/yumi/UnrealPractice/Unreal_Practice/MyProject/Content/Widget/FindCare.uasset"
 			]
 		}
 	]

@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\yumi\\unrealpractice\\unreal_practice\\myproject\\source\\myproject\\grabbersome.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\yumi\\unrealpractice\\unreal_practice\\myproject\\intermediate\\build\\win64\\x64\\myprojecteditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "e:\\yumi\\unrealpractice\\unreal_practice\\myproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\myproject\\definitions.myproject.h",
+            "e:\\yumi\\unrealpractice\\unreal_practice\\myproject\\source\\myproject\\grabbersome.h",
+            "e:\\programfiles\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\physicsengine\\physicshandlecomponent.h",
+            "e:\\programfiles\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\physicsengine\\constraintinstance.h",
+            "e:\\programfiles\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\physicsengine\\constraintdrives.h",
+            "e:\\programfiles\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\constraintdrives.generated.h",
+            "e:\\programfiles\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\constraintinstance.generated.h",
+            "e:\\programfiles\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\physicshandlecomponent.generated.h",
+            "e:\\yumi\\unrealpractice\\unreal_practice\\myproject\\intermediate\\build\\win64\\unrealeditor\\inc\\myproject\\uht\\grabbersome.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
